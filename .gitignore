@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log
+nohup.out
+dump.rdb
+.DS_Store
+.idea/
+.vscode/

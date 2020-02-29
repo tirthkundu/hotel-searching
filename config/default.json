@@ -1,0 +1,24 @@
+{
+  "express": {
+    "port": 3005,
+    "host": "localhost"
+  },
+  "db": {
+    "master": {
+      "connectionPoolLimit": 20,
+      "host": "remotemysql.com",
+      "database": "PKFhYRmD3U",
+      "user": "PKFhYRmD3U",
+      "password": "jvBMcrWQZy",
+      "port": 3306
+    },
+    "slave": {
+      "connectionPoolLimit": 20,
+      "host": "remotemysql.com",
+      "database": "PKFhYRmD3U",
+      "user": "PKFhYRmD3U",
+      "password": "jvBMcrWQZy",
+      "port": 3306
+    }
+  }
+}
