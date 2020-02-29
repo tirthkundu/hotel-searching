@@ -1,0 +1,18 @@
+{
+  "apps": [{
+    "name": "LimeHome",
+    "script": "app.js",
+    "instances": 1,
+    "watch": false,
+    "merge_logs": true,
+    "exec_mode": "cluster",
+    "error_file": "/var/log/pm2/err.log",
+    "out_file": "/var/log/pm2/out.log",
+    "log_date_format": "DD-MM-YYYY HH:mm Z",
+    "cwd": "/var/www/limehome-task",
+    "env": {
+      "NODE_ENV": "development",
+      "NODE_CONFIG_DIR": "/var/www/limehome-task/config"
+    }
+  }]
+}
