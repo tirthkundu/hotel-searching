@@ -20,5 +20,10 @@
       "password": "jvBMcrWQZy",
       "port": 3306
     }
+  },
+  "hereAPI":{
+    "baseUrl":"https://places.ls.hereapi.com/places/v1/discover/here",
+    "timeout": 3000,
+    "apiKey":"ntcuosMUp541o3P1elbeWSNW7VLi97M4DQv_0N5yABs"
   }
 }

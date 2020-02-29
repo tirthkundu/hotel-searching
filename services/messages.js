@@ -38,6 +38,16 @@ const getMsg = (msgCode) => {
 
 }
 
+const prepareErrorMsg = (errMsg) => {
+    if(!errMsg){
+        return {
+            "error": MessageCodes['MG002']
+        };
+    }
+    return ({"error":{"MsgText":errMsg,"MsgType": "Error"}})
+}
+
 module.exports = {
-    getMessageDetails: getMsg
+    getMessageDetails: getMsg,
+    prepareErrorMsg: prepareErrorMsg
 }
