@@ -2,10 +2,10 @@
   "apps": [{
     "name": "LimeHome",
     "script": "app.js",
-    "instances": "max",
+    "instances": 1,
     "watch": false,
     "merge_logs": true,
-    "exec_mode": "cluster",
+    "exec_mode": "fork",
     "error_file": "/var/log/pm2/err.log",
     "out_file": "/var/log/pm2/out.log",
     "log_date_format": "DD-MM-YYYY HH:mm Z",

@@ -23,5 +23,20 @@ module.exports = {
             }
             else throw e;
         }
+    },
+    generateBookingId: () => {
+        return 'BK'+(Number(new Date())+Math.ceil(Math.random()*10000))
+    },
+    getOnlyDate: (datetime) => {
+        let date = new Date(datetime);
+        try {
+            return (date.toISOString().slice(0, 10));
+        }catch (e){
+            return (datetime)
+        }
+    },
+    getDateTime: (datetime) => {
+        let date = new Date(datetime);
+        return (date.toISOString().replace('T',' ').replace('.000Z',''));
     }
 }

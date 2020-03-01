@@ -5,3 +5,30 @@ form(action='/api/properties', method='get')
     input(type='text', name='at')
     input(type='submit', value='submit')
 div --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+h3 Book property
+form(action='/api/bookings', method='post')
+    | property Id:
+    input(type='text', name='propertyId')
+    | num Of Guests:
+    input(type='text', name='numOfGuests')
+    | check In Date (YYYY-MM-DD):
+    input(type='text', name='checkInDate')
+    | check Out Date (YYYY-MM-DD):
+    input(type='text', name='checkOutDate')
+    | first Name:
+    input(type='text', name='firstName')
+    | last Name:
+    input(type='text', name='lastName')
+    | email:
+    input(type='text', name='email')
+    | country Code:
+    input(type='text', name='countryCode')
+    | contact Number:
+    input(type='text', name='contactNumber')
+    input(type='submit', value='submit')
+div --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+h3 Property bookings
+form(action='/api/properties/8409q8yy-c0c0692b712548f48deb658b64f5f577/bookings', method='get')
+    input(type='submit', value='submit')

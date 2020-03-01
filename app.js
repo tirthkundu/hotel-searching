@@ -17,6 +17,7 @@ app.set('view engine', 'jade');
 
 require("./routes/healthCheck")(app);
 require("./routes/properties")(app);
+require("./routes/bookings")(app);
 
 
 const port = process.env.PORT || config.express.port || 3005;

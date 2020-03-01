@@ -13,7 +13,12 @@ const MessageCodes = {
             MsgCode: 'MG002',
             MsgText: 'Something went wrong.',
             MsgType: 'Error'
-        }
+        },
+        'MG003': {
+            MsgCode: 'MG003',
+            MsgText: 'Booking not possible for desired dates',
+            MsgType: 'Error'
+    }
 
 }
 

@@ -5,7 +5,7 @@
   },
   "db": {
     "master": {
-      "connectionPoolLimit": 20,
+      "connectionPoolLimit": 50,
       "host": "remotemysql.com",
       "database": "PKFhYRmD3U",
       "user": "PKFhYRmD3U",
@@ -13,7 +13,7 @@
       "port": 3306
     },
     "slave": {
-      "connectionPoolLimit": 20,
+      "connectionPoolLimit": 50,
       "host": "remotemysql.com",
       "database": "PKFhYRmD3U",
       "user": "PKFhYRmD3U",
@@ -22,8 +22,11 @@
     }
   },
   "hereAPI":{
-    "baseUrl":"https://places.ls.hereapi.com/places/v1/discover/explore?cat=accommodation",
+    "baseUrl":"https://places.ls.hereapi.com/places/v1/",
+    "context": "mxvdy1pZD0yZjNiNzM5OS03YWE3LTVjOGUtYTYyOC00MWZkMDI4ZjRkMWFfMTU4MzAzMjgzNTgzNV8wXzU3NzcmcmFuaz0y",
     "timeout": 3000,
-    "apiKey":"ntcuosMUp541o3P1elbeWSNW7VLi97M4DQv_0N5yABs"
+    "apiKey":"ntcuosMUp541o3P1elbeWSNW7VLi97M4DQv_0N5yABs",
+    "appId":"kblETiFwkw8LsJKW1JE9",
+    "appCode": "eRrba3e5RJhpwzT4dUV2aA"
   }
 }
