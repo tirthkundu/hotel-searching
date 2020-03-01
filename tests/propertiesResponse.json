@@ -1,0 +1,1146 @@
+{
+  "data":
+  {
+    "results": {
+      "next": "https://places.ls.hereapi.com/places/v1/discover/explore;context=Y2F0PWFjY29tbW9kYXRpb24mZmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZvZmZzZXQ9MjAmc2l6ZT0yMA?at=37.7942%2C-122.407&app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+      "items": [
+        {
+          "position": [
+            37.79242,
+            -122.41009
+          ],
+          "distance": 336,
+          "title": "Fairmont San Francisco",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "950 Mason St<br/>San Francisco, CA 94108",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-5e94561bfc034cf69d48137a8260fe86;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTA?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8yy-5e94561bfc034cf69d48137a8260fe86",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "chainIds": [
+            "190"
+          ],
+          "alternativeNames": [
+            {
+              "name": "Fairmont Hotel Penthouse Kennedy Suite",
+              "language": "en"
+            },
+            {
+              "name": "Fairmont San Francisco Hotel San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "San Francisco Fairmont",
+              "language": "en"
+            },
+            {
+              "name": "Hotel Fairmont San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Fairmont Hotel-San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Fairmont Hotel San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Fairmont Hotel",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.78487,
+            -122.40896
+          ],
+          "distance": 1052,
+          "title": "Parc 55 Hotel",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "55 Cyril Magnin St<br/>San Francisco, CA 94102",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-808cfa572bfa433abc60f22ab034db0e;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTE?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "tags": [
+            {
+              "id": "american",
+              "title": "American",
+              "group": "cuisine"
+            }
+          ],
+          "id": "8409q8yy-808cfa572bfa433abc60f22ab034db0e",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "alternativeNames": [
+            {
+              "name": "Parc 55 Wyndham Hotel San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Hilton-San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Hotel Parc 55",
+              "language": "en"
+            },
+            {
+              "name": "Parc 55 Hotel San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Parc 55 San Francisco - a Hilton Hotel",
+              "language": "en"
+            },
+            {
+              "name": "Hilton",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.78616,
+            -122.40833
+          ],
+          "distance": 902,
+          "title": "Hotel Herbert",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "161 Powell St<br/>San Francisco, CA 94102",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-1aa1139c3dcb4617923564d6f1d86189;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTI?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8yy-1aa1139c3dcb4617923564d6f1d86189",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "alternativeNames": [
+            {
+              "name": "Herbert Hotel",
+              "language": "en"
+            },
+            {
+              "name": "Herbert Hotel San Francisco",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.78987,
+            -122.40908
+          ],
+          "distance": 515,
+          "title": "Cornell Hotel",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "715 Bush St<br/>San Francisco, CA 94108",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-8fd9c53893514e86ad17298a637bb407;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTM?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "tags": [
+            {
+              "id": "french",
+              "title": "French",
+              "group": "cuisine"
+            }
+          ],
+          "id": "8409q8yy-8fd9c53893514e86ad17298a637bb407",
+          "openingHours": {
+            "text": "Mon-Fri: 17:30 - 21:30",
+            "label": "Opening hours",
+            "isOpen": false,
+            "structured": [
+              {
+                "start": "T173000",
+                "duration": "PT04H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+              }
+            ]
+          },
+          "alternativeNames": [
+            {
+              "name": "Cornell Hotel De France",
+              "language": "en"
+            },
+            {
+              "name": "Cornell Hotel San Francisco",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.78643,
+            -122.40954
+          ],
+          "distance": 892,
+          "title": "Hi San Francisco Downtown",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "312 Mason St<br/>San Francisco, CA 94102",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-f8895649c5b645e281a8eba0bd1df862;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTQ?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8yy-f8895649c5b645e281a8eba0bd1df862",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "alternativeNames": [
+            {
+              "name": "HI San Francisco Downtown Hostel",
+              "language": "en"
+            },
+            {
+              "name": "Hostelling International- San Francisco/ Downtown Hotel San Francisco",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.78891,
+            -122.4072
+          ],
+          "distance": 588,
+          "title": "Grand Hyatt-San Francisco",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "345 Stockton St<br/>San Francisco, CA 94108",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-17ed0e2716864aebb0e38964aa6a16d2;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTU?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8yy-17ed0e2716864aebb0e38964aa6a16d2",
+          "chainIds": [
+            "77"
+          ],
+          "alternativeNames": [
+            {
+              "name": "Hyatt San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Grand Hyatt San Francisco Hotel San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "San Francisco Grand Hyatt",
+              "language": "en"
+            },
+            {
+              "name": "Grand Hyatt San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Hyatt Resorts",
+              "language": "en"
+            },
+            {
+              "name": "San Francisco Hyatt",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.7867,
+            -122.4111
+          ],
+          "distance": 908,
+          "title": "Clift Hotel",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "495 Geary St<br/>San Francisco, CA 94102",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-9413228a968a456f925549f5855aa37f;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTY?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8yy-9413228a968a456f925549f5855aa37f",
+          "alternativeNames": [
+            {
+              "name": "Clift Royal Sonesta Hotel",
+              "language": "en"
+            },
+            {
+              "name": "Clift Hotel San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Clift San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "San Francisco Clift Hotel",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.78652,
+            -122.4031
+          ],
+          "distance": 920,
+          "title": "Park Central Hotel",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "50 3rd St<br/>San Francisco, CA 94103",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-d017696e347b413a8e24dbe0dc4d8c8b;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTc?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8yy-d017696e347b413a8e24dbe0dc4d8c8b",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "chainIds": [
+            "247"
+          ],
+          "alternativeNames": [
+            {
+              "name": "Park Central Hotel San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Park Central San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "San Francisco Westin",
+              "language": "en"
+            },
+            {
+              "name": "Westin San Francisco Market Street Hotel San Francisco",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.78661,
+            -122.41181
+          ],
+          "distance": 944,
+          "title": "The Marker",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "501 Geary St<br/>San Francisco, CA 94102",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-e46db3c091e341e5a336a2f1b5d7b69c;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTg?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8yy-e46db3c091e341e5a336a2f1b5d7b69c",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "alternativeNames": [
+            {
+              "name": "Kimpton San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Hotel Monaco San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Hotel Monaco",
+              "language": "en"
+            },
+            {
+              "name": "Marker",
+              "language": "en"
+            },
+            {
+              "name": "Marker San Francisco",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.80616,
+            -122.41406
+          ],
+          "distance": 1467,
+          "title": "Hotel Zoe Fisherman's Wharf",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "425 North Point St<br/>San Francisco, CA 94133",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8zn-ea4af02f62494c4ab77af8ea09435597;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTk?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "tags": [
+            {
+              "id": "international",
+              "title": "International",
+              "group": "cuisine"
+            }
+          ],
+          "id": "8409q8zn-ea4af02f62494c4ab77af8ea09435597",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "chainIds": [
+            "2"
+          ],
+          "alternativeNames": [
+            {
+              "name": "Best Western Fishermans Wharf",
+              "language": "en"
+            },
+            {
+              "name": "San Francisco Best Western Tuscan Inn",
+              "language": "en"
+            },
+            {
+              "name": "Best Western Tuscan Inn Fishermans Wharf San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Tuscan Inn San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Hotel Zoe San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Tuscan Inn Fishermans Wharf",
+              "language": "en"
+            },
+            {
+              "name": "San Francisco Tuscan Inn",
+              "language": "en"
+            },
+            {
+              "name": "Best Western San Francisco",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.78675,
+            -122.40847
+          ],
+          "distance": 838,
+          "title": "Villa Florence",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "225 Powell St<br/>San Francisco, CA 94102",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-8cdd5f8c242143468cfa0eac22cfa57e;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTEw?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8yy-8cdd5f8c242143468cfa0eac22cfa57e",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "alternativeNames": [
+            {
+              "name": "Villa Florence, San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Villa Florence San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Villa Florence Hotel",
+              "language": "en"
+            },
+            {
+              "name": "Hotel Florence Larkspur Collection",
+              "language": "en"
+            },
+            {
+              "name": "Larkspur Collection San Francisco",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.79149,
+            -122.40954
+          ],
+          "distance": 375,
+          "title": "Stanford Court Hotel",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "905 California St<br/>San Francisco, CA 94108",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-f9d01339a8bb475493d130b77356fb73;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTEx?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8yy-f9d01339a8bb475493d130b77356fb73",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "chainIds": [
+            "417"
+          ],
+          "alternativeNames": [
+            {
+              "name": "Renaissance San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Stanford Court Renaissance San Francisco Hotel",
+              "language": "en"
+            },
+            {
+              "name": "San Francisco Renaissance",
+              "language": "en"
+            },
+            {
+              "name": "Renaissance Hotel San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Renaissance Hotels",
+              "language": "en"
+            },
+            {
+              "name": "Renaissance Stanford Court Hotel San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Stanford Court",
+              "language": "en"
+            },
+            {
+              "name": "Stanford Court San Francisco",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.78898,
+            -122.40823
+          ],
+          "distance": 590,
+          "title": "Kimpton Hotels-Impton Sir Francis Drake Hotel",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "450 Powell St<br/>San Francisco, CA 94102",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-c0c0692b712548f48deb658b64f5f577;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTEy?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8yy-c0c0692b712548f48deb658b64f5f577",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "chainIds": [
+            "30647"
+          ],
+          "alternativeNames": [
+            {
+              "name": "Kimpton San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Bar Drake",
+              "language": "en"
+            },
+            {
+              "name": "Sir Francis Drake Hotel San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Sir Francis Drake Hotel",
+              "language": "en"
+            },
+            {
+              "name": "Drake Francis Sir",
+              "language": "en"
+            },
+            {
+              "name": "Kimpton Sir Francis Drake Hotel",
+              "language": "en"
+            },
+            {
+              "name": "Kimpton Hotels-Sir Francis Drake",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.79433,
+            -122.39581
+          ],
+          "distance": 983,
+          "title": "Hyatt Regency-San Francisco",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "5 Embarcadero Ctr<br/>San Francisco, CA 94111",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8zn-a731fb84650442dba106697dbc2797df;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTEz?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "tags": [
+            {
+              "id": "american",
+              "title": "American",
+              "group": "cuisine"
+            }
+          ],
+          "id": "8409q8zn-a731fb84650442dba106697dbc2797df",
+          "chainIds": [
+            "27523"
+          ],
+          "alternativeNames": [
+            {
+              "name": "Hyatt Regency San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Hyatt Regency San Francisco Hotel San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Hyatt San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "San Francisco Hyatt Regency",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.78637,
+            -122.41331
+          ],
+          "distance": 1032,
+          "title": "Layne Hotel",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "545 Jones St<br/>San Francisco, CA 94102",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-1bb5da7439a94884af3ad53bb38836ba;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTE0?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8yy-1bb5da7439a94884af3ad53bb38836ba",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "alternativeNames": [
+            {
+              "name": "Hotel Layne",
+              "language": "en"
+            },
+            {
+              "name": "Layne Hotel Office",
+              "language": "en"
+            },
+            {
+              "name": "Layne Hotel San Francisco",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.796423,
+            -122.40535
+          ],
+          "distance": 287,
+          "title": "Hotel North Beach",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "935 Kearny St<br/>San Francisco, CA 94133",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8zn-a229f30bf3dc45a8a4cbf571c88bc4f3;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTE1?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8zn-a229f30bf3dc45a8a4cbf571c88bc4f3",
+          "alternativeNames": [
+            {
+              "name": "North Beach Hotel",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.78415,
+            -122.41684
+          ],
+          "distance": 1413,
+          "title": "Cova Hotel",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "655 Ellis St<br/>San Francisco, CA 94109",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-e097af2175e64315b4888d226fc9ed6d;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTE2?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8yy-e097af2175e64315b4888d226fc9ed6d",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "alternativeNames": [
+            {
+              "name": "Cova Hotel San Francisco",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.795807,
+            -122.42398
+          ],
+          "distance": 1503,
+          "title": "Inn on Broadway",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "2201 Van Ness Ave<br/>San Francisco, CA 94109",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8zn-f175304976e84921be661bfdfff61167;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTE3?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8zn-f175304976e84921be661bfdfff61167",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "alternativeNames": [
+            {
+              "name": "Broadway Manor San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Broadway Manor Hotel",
+              "language": "en"
+            },
+            {
+              "name": "Inn On Broadway Hotel San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Inn on broadway, San Francisco, California, USA",
+              "language": "en"
+            },
+            {
+              "name": "Broadway Manor Fax",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.7914,
+            -122.41024
+          ],
+          "distance": 422,
+          "title": "Intercontinental-Mark Hopkins",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "999 California St<br/>San Francisco, CA 94108",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8yy-86cb7603cede4cd8bf3c0fb3a09f632a;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTE4?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8yy-86cb7603cede4cd8bf3c0fb3a09f632a",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "chainIds": [
+            "254"
+          ],
+          "alternativeNames": [
+            {
+              "name": "Intercontinental Mark Hopkins San Francisco Hotel San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Intercontinental Mark Hopkins San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Intercontinental San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Intercontinental Hotel-S. Francisco",
+              "language": "en"
+            },
+            {
+              "name": "San Francisco Intercontinental",
+              "language": "en"
+            },
+            {
+              "name": "InterContinental Mark Hopkins San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Intercontinental Hotel-Mark Hopkins San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Mark Hopkins Intercontinental",
+              "language": "en"
+            },
+            {
+              "name": "Intercontinental-Mark Hopkins Hotel",
+              "language": "en"
+            },
+            {
+              "name": "San Francisco Accommodations",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "position": [
+            37.80805,
+            -122.41324
+          ],
+          "distance": 1635,
+          "title": "Hotel Zephyr",
+          "averageRating": 0,
+          "category": {
+            "id": "hotel",
+            "title": "Hotel",
+            "href": "https://places.ls.hereapi.com/places/v1/categories/places/hotel?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+            "type": "urn:nlp-types:category",
+            "system": "places"
+          },
+          "icon": "https://download.vcdn.data.here.com/p/d/places2/icons/categories/01.icon",
+          "vicinity": "250 Beach St<br/>San Francisco, CA 94133",
+          "having": [],
+          "type": "urn:nlp-types:place",
+          "href": "https://places.ls.hereapi.com/places/v1/places/8409q8zn-b88cc8937f6b4beba1165dc0cf48c94d;context=Zmxvdy1pZD01MTE2MDBlNy1jZGQ5LTU5ODMtOWRiNy0wOWYxYzM1ZDY2NWVfMTU4MzA0MzA1NDk3OV8wXzQ3NCZyYW5rPTE5?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q",
+          "id": "8409q8zn-b88cc8937f6b4beba1165dc0cf48c94d",
+          "openingHours": {
+            "text": "Mon-Sun: 00:00 - 24:00",
+            "label": "Opening hours",
+            "isOpen": true,
+            "structured": [
+              {
+                "start": "T000000",
+                "duration": "PT24H00M",
+                "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+              }
+            ]
+          },
+          "chainIds": [
+            "221"
+          ],
+          "alternativeNames": [
+            {
+              "name": "Radisson Hotel Fishermans Wharf",
+              "language": "en"
+            },
+            {
+              "name": "Radisson Fishermans Wharf",
+              "language": "en"
+            },
+            {
+              "name": "Hotel Zephyr San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "Radisson San Francisco",
+              "language": "en"
+            },
+            {
+              "name": "San Francisco Radisson",
+              "language": "en"
+            },
+            {
+              "name": "Radisson Hotel San Francisco",
+              "language": "en"
+            }
+          ]
+        }
+      ]
+    },
+    "search": {
+      "context": {
+        "location": {
+          "position": [
+            37.7942,
+            -122.407
+          ],
+          "address": {
+            "text": "818 Clay St<br/>San Francisco, CA 94108<br/>USA",
+            "house": "818",
+            "street": "Clay St",
+            "postalCode": "94108",
+            "district": "Chinatown",
+            "city": "San Francisco",
+            "county": "San Francisco",
+            "stateCode": "CA",
+            "country": "United States",
+            "countryCode": "USA"
+          }
+        },
+        "type": "urn:nlp-types:place",
+        "href": "https://places.ls.hereapi.com/places/v1/places/loc-dmVyc2lvbj0xO3RpdGxlPTgxOCtDbGF5K1N0O2xhdD0zNy43OTQyO2xvbj0tMTIyLjQwNztzdHJlZXQ9Q2xheStTdDtob3VzZT04MTg7Y2l0eT1TYW4rRnJhbmNpc2NvO3Bvc3RhbENvZGU9OTQxMDg7Y291bnRyeT1VU0E7ZGlzdHJpY3Q9Q2hpbmF0b3duO3N0YXRlQ29kZT1DQTtjb3VudHk9U2FuK0ZyYW5jaXNjbztjYXRlZ29yeUlkPWJ1aWxkaW5nO3NvdXJjZVN5c3RlbT1pbnRlcm5hbA;context=c2VhcmNoQ29udGV4dD0x?app_id=LKO34glU2MBEVbcOD5mQ&app_code=A2ta_nQ8HRYwenju5HFG5Q"
+      }
+    }
+  }
+}
+

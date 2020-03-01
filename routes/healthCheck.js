@@ -11,6 +11,10 @@ module.exports = function(app){
             return res.json(messages.getMessageDetails(e));
         }
     })
+
+    app.route('/apitest').get(function (req, res) {
+        res.render('apiTest');
+    });
 };
 
 

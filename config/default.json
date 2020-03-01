@@ -22,7 +22,7 @@
     }
   },
   "hereAPI":{
-    "baseUrl":"https://places.ls.hereapi.com/places/v1/discover/here",
+    "baseUrl":"https://places.ls.hereapi.com/places/v1/discover/explore?cat=accommodation",
     "timeout": 3000,
     "apiKey":"ntcuosMUp541o3P1elbeWSNW7VLi97M4DQv_0N5yABs"
   }

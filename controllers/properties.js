@@ -1,14 +1,16 @@
-const axios = require('axios')
+
 const config = require('config')
 const parametersValidator = require('../services/validateParameters');
 const getPropertiesValidator = require('../validationSchemas/getPropertiesValidator');
+const utilities = require('../services/utilities');
 
 const getNearByProperties = async function (params) {
     try {
         parametersValidator(getPropertiesValidator.propertiesValidator, params)
-        let url = `${config.hereAPI.baseUrl}?at=${params.at}&apiKey=${config.hereAPI.apiKey}`
-        let propertiesNearBy = await axios.get(url,{"timeout": config.hereAPI.timeout})
-        return ({data:propertiesNearBy.data.results.items})
+        const url = `${config.hereAPI.baseUrl}&at=${params.at}&apiKey=${config.hereAPI.apiKey}`
+        let propertiesNearBy = await utilities.makeExternalCall(url,'GET', '',  config.hereAPI.timeout)
+        let sortPropertiesByDistance = utilities.sortData(propertiesNearBy.data.results.items,'distance')
+        return ({data:sortPropertiesByDistance})
     }
     catch(e){
         if(e.response && e.response.data && e.response.data.message){
