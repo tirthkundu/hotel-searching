@@ -39,6 +39,8 @@ describe('#properties controller', function() {
 			}
 
 			const result = await properties.getNearByProperties(queryParams)
+			result.data.should.be.an.Array()
+			result.data.should.have.length(0)
 			result.should.deepEqual({
 				data: []
 			})
@@ -50,6 +52,8 @@ describe('#properties controller', function() {
 			}
 
 			const result = await properties.getNearByProperties(queryParams)
+			queryParams.should.have.properties('at')
+			result.data.should.be.an.Array()
 			result.data.should.have.length(20)
 			result.data[1].distance.should.be.greaterThanOrEqual(
 				result.data[0].distance
@@ -84,18 +88,25 @@ describe('#properties controller', function() {
 			}
 
 			const result = await properties.getPropertyBookings(params)
+			result.data.should.be.an.Array()
+			result.data.should.have.length(0)
 			result.should.deepEqual({
 				data: []
 			})
 		})
 
-		it('should return bookings data of the property', async function() {
+		it('should return latest bookings data of the property in sorted order', async function() {
 			let params = {
 				propertyId: '8409q8yy-c0c0692b712548f48deb658b64f5f577'
 			}
 
 			const result = await properties.getPropertyBookings(params)
+			params.should.have.properties('propertyId')
+			result.data.should.be.an.Array()
 			result.data.should.have.length(2)
+			result.data[0].createdDate.should.be.greaterThanOrEqual(
+				result.data[1].createdDate
+			)
 		})
 	})
 })

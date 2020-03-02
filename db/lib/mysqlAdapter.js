@@ -10,13 +10,14 @@ const writeConnection = mysql.createPool({
 	port: config.db.master.port
 })
 
-writeConnection.getConnection(function(err) {
-	if (err) {
-		console.error('error connecting master: ' + err.stack)
-		return
-	}
-})
-
+if (process.env.NODE_ENV !== 'test') {
+	writeConnection.getConnection(function(err) {
+		if (err) {
+			console.error('error connecting master: ' + err.stack)
+			return
+		}
+	})
+}
 const readConnection = mysql.createPool({
 	host: config.db.slave.host,
 	user: config.db.slave.user,
@@ -25,13 +26,14 @@ const readConnection = mysql.createPool({
 	connectionLimit: config.db.slave.connectionPoolLimit,
 	port: config.db.slave.port
 })
-
-readConnection.getConnection(function(err) {
-	if (err) {
-		console.error('error connecting to slave: ' + err.stack)
-		return
-	}
-})
+if (process.env.NODE_ENV !== 'test') {
+	readConnection.getConnection(function(err) {
+		if (err) {
+			console.error('error connecting to slave: ' + err.stack)
+			return
+		}
+	})
+}
 
 module.exports = {
 	writeConnection: writeConnection,

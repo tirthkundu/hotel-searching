@@ -109,6 +109,17 @@ describe('#bookings controller', function() {
 			}
 
 			const result = await bookings.bookProperty(bodyParams)
+			bodyParams.should.have.properties([
+				'propertyId',
+				'numOfGuests',
+				'checkInDate',
+				'checkOutDate',
+				'firstName',
+				'lastName',
+				'email',
+				'contactNumber',
+				'countryCode'
+			])
 			result.data.BookingId.should.eql('BK26732838822')
 		})
 	})

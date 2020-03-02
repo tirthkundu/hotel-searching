@@ -6,6 +6,7 @@ module.exports = function(app) {
 		try {
 			const bodyParams = req.body
 			const result = await bookings.bookProperty(bodyParams)
+			if (result.error) res.status(422)
 			return res.json(result)
 		} catch (e) {
 			res.status(400)
