@@ -1,31 +1,41 @@
+/*
+This file consists of error messages body and also functions to construct error messages
+*/
+
+// Messages for respective error codes
 const MessageCodes = {
 	MG000: {
-		MsgCode: 'MG000',
-		MsgText: 'Connection failed.',
-		MsgType: 'Error'
+		msgCode: 'MG000',
+		msgText: 'Connection failed.',
+		msgType: 'Error'
 	},
 	MG001: {
-		MsgCode: 'MG001',
-		MsgText: 'Received response from APIs.',
-		MsgType: 'Info'
+		msgCode: 'MG001',
+		msgText: 'Received response from APIs.',
+		msgType: 'Info'
 	},
 	MG002: {
-		MsgCode: 'MG002',
-		MsgText: 'Something went wrong.',
-		MsgType: 'Error'
+		msgCode: 'MG002',
+		msgText: 'Something went wrong.',
+		msgType: 'Error'
 	},
 	MG003: {
-		MsgCode: 'MG003',
-		MsgText: 'Booking not possible for desired dates',
-		MsgType: 'Error'
+		msgCode: 'MG003',
+		msgText: 'Booking not possible for desired dates',
+		msgType: 'Error'
 	}
 }
 
+/*
+ Get error message
+ Input: Message code
+ Output: Error body w.r.t error code
+ */
 const getMsg = msgCode => {
 	try {
 		let msgObj = MessageCodes[msgCode]
 		msgObj = JSON.parse(JSON.stringify(msgObj))
-		if (msgObj.MsgType == 'Error') {
+		if (msgObj.msgType == 'Error') {
 			return {
 				error: msgObj
 			}
@@ -41,13 +51,18 @@ const getMsg = msgCode => {
 	}
 }
 
+/*
+ Construct error message
+ Input: Error message
+ Output: Error body
+ */
 const prepareErrorMsg = errMsg => {
 	if (!errMsg) {
 		return {
 			error: MessageCodes['MG002']
 		}
 	}
-	return {error: {MsgText: errMsg, MsgType: 'Error'}}
+	return {error: {msgText: errMsg, msgType: 'Error'}}
 }
 
 module.exports = {

@@ -1,3 +1,7 @@
+/*
+ This file consists of validation schema for bookings route
+ Each input param is validated accordingly.
+ */
 const baseJoi = require('joi')
 const joiDate = require('joi-date-extensions')
 const joi = baseJoi.extend(joiDate)

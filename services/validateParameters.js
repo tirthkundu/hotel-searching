@@ -1,5 +1,13 @@
+/*
+ This file is used for joi validations on input params
+ */
 const joi = require('joi')
 
+/*
+ Validates body or query params
+ Input: Validation schema and parameters
+ Output: Return true if validations passed, otherwise throws error for failed validation
+ */
 const validateParams = (schema, params) => {
 	const {error} = joi.validate(params, schema)
 	const valid = error == null
@@ -8,8 +16,6 @@ const validateParams = (schema, params) => {
 	} else {
 		const {details} = error
 		const message = details.map(i => i.message).join(',')
-
-		console.log('error', message)
 		throw message
 	}
 }

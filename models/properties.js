@@ -1,8 +1,17 @@
+/*
+ This file consists of all interactions with the DB needed by the properties controller
+ */
 const db = require('../db/lib/mysqlAdapter')
 const config = require('config')
 
+/*
+ Fetch a property's bookings data, max 20 per page
+ Input: propertyId and page
+ Output: Property's booking list
+ */
 const getPropertyBookingDetails = params => {
 	return new Promise(function(resolve, reject) {
+		// Calculate the starting index w.r.t page
 		const startingPageRecord =
 			parseInt(params.page - 1) * config.bookingsPageLimit
 		const propertyBookingsQuery =
@@ -18,6 +27,11 @@ const getPropertyBookingDetails = params => {
 	})
 }
 
+/*
+ Fetch a property's bookings data count
+ Input: propertyId
+ Output: Property's booking data count
+ */
 const getPropertyBookingsCount = params => {
 	return new Promise(function(resolve, reject) {
 		const propertyBookingCountQuery =

@@ -1,3 +1,7 @@
+/*
+ This file includes test case for properties controller
+ We'll stub all I/O calls to remove side-effects
+ */
 const should = require('should')
 const sinon = require('sinon')
 const config = require('config')
@@ -12,7 +16,9 @@ let getPropertyBookingDetailsStub
 let getPropertyBookingCountStub
 
 describe('#properties controller', function() {
+	// Get near by properties test cases
 	describe('#getNearByProperties', function() {
+		// Stub makeExternalCall function
 		before(function(done) {
 			makeExternalCallStub = sinon
 				.stub(utilities, 'makeExternalCall')
@@ -34,7 +40,7 @@ describe('#properties controller', function() {
 			makeExternalCallStub.restore()
 			done()
 		})
-
+		// Test cases
 		it('should return error if lat and long are not provided', async function() {
 			let queryParams = {
 				at: ''
@@ -68,13 +74,20 @@ describe('#properties controller', function() {
 			queryParams.should.have.properties('at')
 			result.data.should.be.an.Array()
 			result.data.should.have.length(20)
+			result.data[0].should.have.properties([
+				'distance',
+				'id',
+				'title',
+				'position'
+			])
 			result.data[1].distance.should.be.greaterThanOrEqual(
 				result.data[0].distance
 			)
 		})
 	})
-
+	// Fetch property's booking test cases
 	describe('#propertyBookings', function() {
+		// Stub getPropertyBookingDetails DB call
 		before(function(done) {
 			getPropertyBookingDetailsStub = sinon
 				.stub(propertiesModel, 'getPropertyBookingDetails')
@@ -108,7 +121,7 @@ describe('#properties controller', function() {
 			getPropertyBookingDetailsStub.restore()
 			done()
 		})
-
+		// Stub getPropertyBookingsCount DB call
 		before(function(done) {
 			getPropertyBookingCountStub = sinon
 				.stub(propertiesModel, 'getPropertyBookingsCount')
@@ -129,6 +142,7 @@ describe('#properties controller', function() {
 			done()
 		})
 
+		// Test cases
 		it('should return empty data as no booking is done for the property', async function() {
 			let params = {
 				propertyId: '34422-c0c0692b712548f48deb658b64f5f577',
@@ -154,6 +168,19 @@ describe('#properties controller', function() {
 			params.should.have.properties('propertyId')
 			result.data.should.be.an.Array()
 			result.data.should.have.length(20)
+			result.data[0].should.have.properties([
+				'propertyId',
+				'numOfGuests',
+				'checkinDate',
+				'checkoutDate',
+				'bookingId',
+				'firstName',
+				'lastName',
+				'email',
+				'countryCode',
+				'contactNumber',
+				'createdDate'
+			])
 			result.data[0].createdDate.should.be.greaterThanOrEqual(
 				result.data[1].createdDate
 			)

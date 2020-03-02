@@ -1,7 +1,11 @@
+/*
+ Route containing endpoints related to the properties
+ */
 const properties = require('../controllers/properties')
 const messages = require('../services/messages')
 
 module.exports = function(app) {
+	// Route for fetching nearby properties w.r.t latitude and longitude
 	app.route('/api/properties').get(async function(req, res) {
 		try {
 			const queryParams = req.query
@@ -15,6 +19,7 @@ module.exports = function(app) {
 		}
 	})
 
+	// Route to fetch bookings of a property
 	app.route('/api/properties/:propertyId/bookings').get(async function(
 		req,
 		res

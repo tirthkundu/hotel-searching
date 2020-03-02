@@ -1,6 +1,10 @@
+/*
+Route containing endpoints related to the bookings
+*/
 const bookings = require('../controllers/bookings')
 const messages = require('../services/messages')
 
+// Route to make booking for a respective property for a duration of period
 module.exports = function(app) {
 	app.route('/api/bookings').post(async function(req, res) {
 		try {

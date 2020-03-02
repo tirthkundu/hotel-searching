@@ -1,3 +1,7 @@
+/*
+ This file includes test case for bookings controller
+ We'll stub all I/O calls to remove side-effects
+*/
 const should = require('should')
 const sinon = require('sinon')
 const utilities = require('../../services/utilities')
@@ -9,7 +13,9 @@ let checkIfPropertyAvailableStub
 let bookThePropertyStub
 
 describe('#bookings controller', function() {
+	// Make booking test cases
 	describe('#getNearByProperties', function() {
+		// Stub makeExternalCall function
 		before(function(done) {
 			makeExternalCallStub = sinon
 				.stub(utilities, 'makeExternalCall')
@@ -35,7 +41,7 @@ describe('#bookings controller', function() {
 			makeExternalCallStub.restore()
 			done()
 		})
-
+		// Stub checkIfPropertyAvailable DB call
 		before(function(done) {
 			checkIfPropertyAvailableStub = sinon
 				.stub(bookingsModel, 'checkIfPropertyAvailable')
@@ -60,7 +66,7 @@ describe('#bookings controller', function() {
 			checkIfPropertyAvailableStub.restore()
 			done()
 		})
-
+		// Stub bookTheProperty DB call
 		before(function(done) {
 			bookThePropertyStub = sinon
 				.stub(bookingsModel, 'bookTheProperty')
@@ -77,7 +83,7 @@ describe('#bookings controller', function() {
 			bookThePropertyStub.restore()
 			done()
 		})
-
+		// Test cases
 		it('should throw error if checkIn and checkOut dates are not valid', async function() {
 			let bodyParams = {
 				propertyId: '8409q8yy-c0c0692b712548f48deb658b64f5f577',
@@ -134,7 +140,7 @@ describe('#bookings controller', function() {
 			}
 
 			const result = await bookings.bookProperty(bodyParams)
-			result.error.MsgCode.should.eql('MG003')
+			result.error.msgCode.should.eql('MG003')
 		})
 
 		it('should book the property for desired dates', async function() {
@@ -162,7 +168,7 @@ describe('#bookings controller', function() {
 				'contactNumber',
 				'countryCode'
 			])
-			result.data.BookingId.should.eql('BK26732838822')
+			result.data.bookingId.should.eql('BK26732838822')
 		})
 	})
 })

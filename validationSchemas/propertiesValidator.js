@@ -1,3 +1,7 @@
+/*
+ This file consists of validation schemas for properties route.
+ 'Fetch near by properties' validation and 'fetch property's bookings' validation schemas are mentioned below.
+ */
 const joi = require('joi')
 
 const getPropertiesSchema = {
