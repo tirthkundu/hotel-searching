@@ -21,6 +21,7 @@ module.exports = function(app) {
 	) {
 		try {
 			const params = req.params
+			params.page = req.query.page ? req.query.page : 1
 			const propertyBookings = await properties.getPropertyBookings(
 				params
 			)

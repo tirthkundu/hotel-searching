@@ -1,4 +1,6 @@
-const joi = require('joi')
+const baseJoi = require('joi')
+const joiDate = require('joi-date-extensions')
+const joi = baseJoi.extend(joiDate)
 
 const bookingsValidator = {
 	bookPropertyValidator: joi.object().keys({
@@ -10,10 +12,12 @@ const bookingsValidator = {
 			.required(),
 		checkInDate: joi
 			.date()
+			.format('YYYY-MM-DD')
 			.greater('now')
 			.required(),
 		checkOutDate: joi
 			.date()
+			.format('YYYY-MM-DD')
 			.greater(joi.ref('checkInDate'))
 			.required(),
 		firstName: joi

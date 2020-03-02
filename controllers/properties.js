@@ -32,11 +32,20 @@ const getPropertyBookings = async function(params) {
 			getPropertiesValidator.propertyBookingsValidator,
 			params
 		)
+		let resp = {pageCount: -1}
+		if (params.page == 1) {
+			let propertyBookingCount = await propertiesModel.getPropertyBookingsCount(
+				params
+			)
+			resp.pageCount = Math.ceil(
+				propertyBookingCount[0].count / config.bookingsPageLimit
+			)
+		}
 		let propertyBookingList = await propertiesModel.getPropertyBookingDetails(
 			params
 		)
 		let sanitizedData = sanitizeData(propertyBookingList)
-		return {data: sanitizedData}
+		return {data: sanitizedData, pageCount: resp.pageCount}
 	} catch (e) {
 		if (e.response && e.response.data && e.response.data.message) {
 			throw e.response.data.message

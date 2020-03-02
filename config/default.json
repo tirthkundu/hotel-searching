@@ -28,5 +28,6 @@
     "apiKey":"ntcuosMUp541o3P1elbeWSNW7VLi97M4DQv_0N5yABs",
     "appId":"kblETiFwkw8LsJKW1JE9",
     "appCode": "eRrba3e5RJhpwzT4dUV2aA"
-  }
+  },
+  "bookingsPageLimit": 20
 }

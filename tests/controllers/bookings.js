@@ -78,6 +78,48 @@ describe('#bookings controller', function() {
 			done()
 		})
 
+		it('should throw error if checkIn and checkOut dates are not valid', async function() {
+			let bodyParams = {
+				propertyId: '8409q8yy-c0c0692b712548f48deb658b64f5f577',
+				numOfGuests: 7,
+				checkInDate: '2020-03-18',
+				checkOutDate: '2020-03-09',
+				firstName: 'Test',
+				lastName: 'Xyz',
+				email: 'axc@sjjs.shs',
+				contactNumber: '17181881818',
+				countryCode: '+91'
+			}
+
+			try {
+				await bookings.bookProperty(bodyParams)
+			} catch (e) {
+				e.should.containEql('"checkOutDate" must be greater than')
+			}
+		})
+
+		it('should return property does not exists', async function() {
+			let bodyParams = {
+				propertyId: '9409q8yy-c0c0692b712548f48deb658b64f5f57',
+				numOfGuests: 7,
+				checkInDate: '2020-03-08',
+				checkOutDate: '2020-03-09',
+				firstName: 'Test',
+				lastName: 'Xyz',
+				email: 'axc@sjjs.shs',
+				contactNumber: '17181881818',
+				countryCode: '+91'
+			}
+
+			try {
+				await bookings.bookProperty(bodyParams)
+			} catch (e) {
+				e.should.eql(
+					"Place with id '9409q8yy-c0c0692b712548f48deb658b64f5f57' not found."
+				)
+			}
+		})
+
 		it('should return error saying property already booked on desired dates', async function() {
 			let bodyParams = {
 				propertyId: '8409q8yy-c0c0692b712548f48deb658b64f5f577',

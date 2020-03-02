@@ -8,7 +8,8 @@ const getPropertiesSchema = {
 			.required()
 	}),
 	propertyBookingsValidator: joi.object().keys({
-		propertyId: joi.string().required()
+		propertyId: joi.string().required(),
+		page: joi.number().required()
 	})
 }
 
