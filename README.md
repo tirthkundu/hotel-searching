@@ -34,3 +34,10 @@ https://documenter.getpostman.com/view/10563214/SzKZtGct
 https://github.com/tirthkundu/limehome-task/blob/master/db/dbQueries.sql
 
 
+<b>Scripts</b>
+
+ - To run tests: Run `npm test`  // Executes test cases
+ - To run linting: Run `npm run lint`  // Lints the file and find out unused/ undeclared variables.
+ - To run prettier: Run `npm run pretty` // Prettify the files with desired indentation and spacing.
+
+
