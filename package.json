@@ -9,7 +9,7 @@
     "lint": "find ./. -name '*.js' -not -path '././node_modules/*' -not -path '././tests/*' -not -path '././db/*' -not -path '././app.js' | xargs ./node_modules/.bin/eslint"
   },
   "dependencies": {
-    "async": "^2.1.4",
+    "async": "^2.6.4",
     "axios": "^0.19.2",
     "body-parser": "^1.15.2",
     "config": "^1.24.0",
