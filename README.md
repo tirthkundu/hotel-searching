@@ -31,7 +31,7 @@ https://documenter.getpostman.com/view/10563214/SzKZtGct
 
 <b>Data Model</b>
 
-https://github.com/tirthkundu/limehome-task/blob/master/db/dbQueries.sql
+https://github.com/tirthkundu/hotel-searching/blob/master/db/dbQueries.sql
 
 
 <b>Scripts</b>
