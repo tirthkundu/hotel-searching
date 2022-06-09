@@ -11,7 +11,7 @@ The repo consists of below APIs:
 <b>Local Setup</b>
 - Install [node](https://nodejs.org/en/).
 - Clone the git repo: git clone https://github.com/tirthkundu/hotel-searching.git in your local working directory.
-- Go to the `limehome-task` directory.
+- Go to the `hotel-searching` directory.
 - Run `npm install`.
 - Run `npm install pm2 -g`.
 - To run the application: `pm2 start pm2/pm2-development.json`.
